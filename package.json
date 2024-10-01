@@ -2,7 +2,7 @@
   "name": "vite-node-vitest-esm-import-differences",
   "type": "module",
   "scripts": {
-    "dev": "vite-node tests/index.ts",
+    "dev": "vite-node tests/index.test.ts",
     "test": "vitest run --passWithNoTests"
   },
   "dependencies": {
