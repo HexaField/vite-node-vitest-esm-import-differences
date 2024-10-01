@@ -1,0 +1,15 @@
+{
+  "name": "vite-node-vitest-esm-import-differences",
+  "type": "module",
+  "scripts": {
+    "dev": "vite-node tests/index.ts",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@hookstate/core": "npm:@speigg/hookstate@4.0.1-fix-111-106.2",
+    "react": "18.2.0",
+    "vite": "5.4.8",
+    "vite-node": "2.1.1",
+    "vitest": "2.1.1"
+  }
+}
